@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+  
+}
+@font-face {
+  font-family: "Sombra-Black";
+  src: url(./assets/Sombra-Black.otf);
+}
+body{
+  margin: 0;
+  overflow-x: hidden;
+}
+.overlay{
+  opacity: 20%;
+}
+li{
+  list-style: none;
+  color: #ffc233;
+}
+#image{
+  background-color: #34394a;
+}
+.menu{
+  position: relative;
+  left: 510px;
+  width: 150px;
+  bottom: 10px;
+  font-size: 21px;
+  
+}
+.maps{
+  position: relative;
+  left: 680px;
+  width: 150px;
+  bottom: 34px;
+  font-size: 20px;
+  
+}
+
+.about{
+ 
+    position: relative;
+    left: 815px;
+    width: 150px;
+    bottom: 58px;
+    font-size: 20px;
+
+  
+}
+.contact{
+ 
+  position: relative;
+  left: 945px;
+  width: 150px;
+  bottom: 83px;
+  font-size: 20px;
+
+}
+.scrool{
+  position: relative;
+  left: 1150px;
+  width: 175px;
+}
+
+#overlay{
+  opacity: 82.5%;
+}
+.bg {
+
+  width: 100%;
+  height: auto;
+	
+  position: fixed;
+}
+
+
+
+.logo{
+  position: relative;
+  top: 48px;
+  left: 100px;
+}
+.button{
+  position: relative;
+  left: 1300px;
+  bottom: 122px;
+  width: 148px;
+  height: 53px;
+  border: none;
+  font-size: 25px;
+  background-color: #ff505f;
+  color: white;
+}
+.hero-heading{
+  position: relative;
+  left: 198px;
+  font-size: 119.5px;
+  top: 33px;
+  font-family: Sombra-Black;
+  font-weight: bolder;
+  word-spacing: 10px;
+  color: #ffc641;
+  line-height: 120px;
+  
+}
+.read-menu{
+  position: relative;
+  top: 55px;
+  width: 340px;
+  height: 86px;
+  left: 618px;
+  background-color: #ff505f;
+  border: none;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
